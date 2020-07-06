@@ -1,0 +1,181 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.sections{
+    padding: 80px 0 80px 0;
+}
+.custom-margin{
+    margin: 0 0 80px 0;
+}
+#section-one{
+    background-image: url("./images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#section-two{
+    background-image: url("./images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.container{
+    width: 88%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    width: 50%;
+}
+.col-one{
+    width: 33.33%;
+}
+.right-side-content-wraper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.left-side-content-wraper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+.name-highliter{
+    color: #E91E63;
+}
+.name .custom-name{
+    margin: 30px 0;
+}
+.name .custom-h3{
+    margin: 30px 0;
+}
+.name p{
+    margin: 20px 0 40px;
+}
+.btn{
+    background-image: linear-gradient(45deg, #f54e85, #fb0065);
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 3px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 11px;
+}
+.images{
+    width: 90%;
+}
+.custom-border{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    width: 95%;
+    padding: 20px;
+    height: 100%;
+}
+.border-one{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orange, #ff3887);
+    border-image-slice: 1;
+}
+.border-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(0, 153, 255), #5d38ff);
+    border-image-slice: 1;
+}
+.section-three-body{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.header-text{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#section-four{
+    background-image: url("./images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#section-four img{
+    width: 90%;
+}
+.latesr-work-one{
+    display: flex;
+    justify-content: flex-start;
+}
+.latesr-work-two{
+    display: flex;
+    justify-content: center;
+}
+.latesr-work-three{
+    display: flex;
+    justify-content: flex-end;
+}
+#section-five {
+    background-image: url("./images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.clients-name{
+    text-align: center;
+}
+.clients-email{
+    text-align: center;
+    text-align: center;
+    background-image: linear-gradient(45deg, #f54e85, #fb0065);
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 50px;
+    border-radius: 15px;
+}
+.clients-name h2{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.clients-name h3{
+    font-size: 13px;
+    color: #808080ad;
+    font-weight: 400;
+}
+.clients-name p{
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-style: italic;
+}
+.clients-email h1{
+    font-size: 35px;
+    margin: 20px 0;
+    font-weight: 400;
+}
+.clients-email h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+footer p{
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+    font-weight: 400;
+}
